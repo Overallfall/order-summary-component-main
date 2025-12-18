@@ -30,29 +30,8 @@ Les utilisateurs peuvent :
 
 ### Capture d'écran
 
-````carousel
-![Desktop View - 1440px](./screenshots/desktop-view.png)
-
-**Desktop (1440px)** - Design complet avec arrière-plan desktop
-
-<!-- slide -->
-
-![Tablet View - 768px](./screenshots/tablet-view.png)
-
-**Tablette (768px)** - Arrière-plan mobile activé, carte adaptée
-
-<!-- slide -->
-
-![Mobile View - 375px](./screenshots/mobile-view.png)
-
-**Mobile (375px)** - Boutons tactiles 48px, espacements optimisés
-
-<!-- slide -->
-
-![Small Mobile View - 320px](./screenshots/small-mobile-view.png)
-
-**Petit Mobile (320px)** - Utilisation maximale de l'espace
-````
+![Screenshot Desktop](./Capture%20d'ecran/Desktop%20-%20version.png)
+![Screenshot Mobile](./Capture%20d'ecran/Mobile%20-%20version.png)
 
 ### Liens
 
@@ -168,8 +147,8 @@ order-summary-component/
 ## 👨‍💻 Auteur
 
 - **Nom** : Mukoko Wa Katamba
-- **Frontend Mentor** : [@votre-username](https://www.frontendmentor.io/profile/votre-username)
-- **GitHub** : [@votre-username](https://github.com/votre-username)
+- **Frontend Mentor** : [@Overallfall](https://www.frontendmentor.io/profile/Overallfall)
+- **GitHub** : [@Overallfall](https://github.com/Overallfall)
 
 ---
 
