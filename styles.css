@@ -1,0 +1,156 @@
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Diplay", sans-serif;
+    font-size: 16px;
+    background-color: var(--Pale-blue);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+h2, .btn, .Annual-plan p:first-child{
+    font-weight: 900;
+  }
+
+.card{
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image{
+    width: 100%;
+}
+
+.card-content{
+    padding: 0 48px;    
+}
+
+h2{
+    padding: 50px 0 20px 0;
+}
+
+.Paragraph{
+    color: var(--Desaturated-blue);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+}
+
+.Plan{
+    display: flex;
+    background-color: var(--Very-pale-blue);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.music-logo{
+    display: block;
+    margin-left: 10px;
+    padding: 0 10px 0 0;
+}
+
+.Annual-plan{
+    flex-direction: column;
+    padding: 3px;
+}
+
+.Annual-plan :nth-child(2){
+    color: var(--Desaturated-blue);
+}
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 2px solid var(--Bright-blue);
+    outline-offset: 2px;
+  }
+
+.btn-1{
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--Bright-blue);
+    margin-left: auto;   
+}
+
+.btn-1:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+    gap: 10px;
+}
+
+.btn-2{
+    height: 45px;
+    width: 350px;
+    color: white;
+    background-color: var(--Bright-blue);
+}
+
+.btn-2:hover {
+    background-color: hsl(245, 75%, 60%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+.btn-3{
+    background-color: transparent; 
+    color: var(--Desaturated-blue);
+}
+
+.btn-3:hover {
+    color: var(--Dark-blue); 
+  }
+
+  @media (max-width: 500px) {
+    .card {
+      width: 95%;
+      height: auto; 
+    }
+    .btn-2, .btn-3 {
+      width: 100%; 
+    }
+  }
+  a{
+    text-decoration: none;
+}
+.attribution {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+}
