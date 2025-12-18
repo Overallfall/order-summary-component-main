@@ -136,13 +136,84 @@ h2{
     color: var(--Dark-blue); 
   }
 
+  /* Tablette - Utilisation de l'arrière-plan mobile */
+  @media (max-width: 768px) {
+    body {
+      background-image: url(./images/pattern-background-mobile.svg);
+      background-size: contain;
+    }
+    
+    .card {
+      width: 90%;
+      max-width: 450px;
+    }
+  }
+
+  /* Mobile - Optimisations pour petits écrans */
   @media (max-width: 500px) {
     .card {
-      width: 95%;
-      height: auto; 
+      width: 90%;
+      max-width: 327px;
+      height: auto;
     }
+    
+    .card-content {
+      padding: 0 24px;
+    }
+    
+    h2 {
+      font-size: 22px;
+      padding: 32px 0 16px 0;
+    }
+    
+    .Paragraph {
+      font-size: 15px;
+      line-height: 1.6;
+      padding: 0 0 16px 0;
+    }
+    
+    .Plan {
+      padding: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .music-logo {
+      width: 48px;
+      height: 48px;
+    }
+    
+    .Annual-plan {
+      padding: 0 8px;
+    }
+    
     .btn-2, .btn-3 {
-      width: 100%; 
+      width: 100%;
+      min-height: 48px;
+      font-size: 15px;
+    }
+    
+    .last {
+      padding: 24px 0;
+      gap: 16px;
+    }
+  }
+
+  /* Très petits écrans - Ajustements supplémentaires */
+  @media (max-width: 375px) {
+    .card {
+      width: 95%;
+    }
+    
+    .card-content {
+      padding: 0 20px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    
+    .Paragraph {
+      font-size: 14px;
     }
   }
   a{
